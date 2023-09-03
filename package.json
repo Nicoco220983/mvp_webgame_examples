@@ -1,0 +1,18 @@
+{
+  "name": "mvp_webgame_examples",
+  "version": "0.0.1",
+  "description": "Minimum Viable Product of webgame examples",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "author": "Nicolas CARREZ",
+  "license": "ISC",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "two.js": "^0.8.10",
+    "ws": "^8.13.0"
+  }
+}

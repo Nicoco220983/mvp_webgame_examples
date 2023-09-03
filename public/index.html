@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>MultiPlayer Shooter boilerplat</title>
+        <script src="two.min.js"></script>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <script type="module">
+            import { newGame } from "./game.client.mjs"
+            newGame(document.body)
+        </script>
+    </body>
+</html>
